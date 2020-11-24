@@ -1,7 +1,6 @@
 package com.example.broadcastbestpractice
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -14,5 +13,4 @@ class MainActivity : BaseActivity() {
             sendBroadcast(intent)
         }
     }
-
 }
